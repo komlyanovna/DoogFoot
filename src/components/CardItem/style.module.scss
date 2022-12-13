@@ -1,0 +1,47 @@
+.cardItem {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 10px;
+  gap: 5px;
+  box-shadow: 10px 5px 10px;
+  padding: 10px;
+
+  button {
+    background-color: green;
+    border-radius: 8px;
+    color: white;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0px;
+  }
+
+  h3 {
+    font-size: 16px;;
+  }
+
+  .icon {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+
+  .discount {
+    position: absolute;
+    top: -5px;
+    left: -15px;
+    border: 1px solid gray;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: greenyellow;
+    border-radius: 10px;
+
+  }
+}
