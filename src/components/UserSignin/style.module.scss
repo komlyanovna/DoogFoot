@@ -1,0 +1,34 @@
+.form__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  align-items: center;
+  justify-content: center;
+
+  .form__authorization {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  input {
+    max-width: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 25px;
+    box-shadow: 5px 3px 3px gray;
+  }
+
+  button {
+    max-width: 150px;
+    box-shadow: 5px 3px 3px gray;
+    background-color: white;
+    border-radius: 5px;
+    background-color: green;
+    color: white
+    }
+    .home {
+      text-decoration: none;
+    }
+}
