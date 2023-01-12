@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 50px;
+
+  .conteinerCardId {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px
+  }
+
+  .btn {
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  .rub {
+    width: 15px;
+    height: 20px;
+    margin: 0;
+  }
+
+  h4 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .icon {
+  }
+}

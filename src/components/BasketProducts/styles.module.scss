@@ -1,0 +1,91 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: max-content;
+  gap: 20px;
+
+  .basketCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    gap: 30px;
+    width: 100%;
+    grid-column: 1;
+  }
+
+  .btnCounter {
+    width: 30px;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .img {
+    width: 50px;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .design {
+    width: 100px;
+    background-color: lightgreen;
+    border: 1px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .clear {
+    width: 100px;
+    background-color: #ff4400b8;
+    border: 1px solid gray;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .counter {
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+  }
+
+  .priceActive {
+    text-decoration: line-through;
+    color: rgb(148, 147, 147);
+  }
+  
+  .price {
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .trash {
+    background-color: rgba(255, 252, 252, 0);
+    border: none;
+    cursor: pointer;
+  }
+
+  .ordering{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-column: 1;
+    align-items: center;
+  }
+
+  .checkbox {
+    height: 15px;
+    box-shadow: none;
+  }
+
+  .checkboxContainer {
+    height: 20px;
+    box-shadow: none;
+    text-align: start;
+  }
+}

@@ -1,0 +1,24 @@
+.main {
+  padding: 100px;
+  display: grid;
+  // flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  .container__main {
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: -50px;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  h3 {
+    margin: 0;
+  }
+}
